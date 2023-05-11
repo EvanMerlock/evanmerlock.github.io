@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evan Merlock - Projects on Evan Merlock - Official Website</title>
+    <link>https://evan.merlock.dev/projects/</link>
+    <description>Recent content in Evan Merlock - Projects on Evan Merlock - Official Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 May 2023 23:23:00 -0600</lastBuildDate><atom:link href="https://evan.merlock.dev/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Constructum</title>
+      <link>https://evan.merlock.dev/projects/constructum/</link>
+      <pubDate>Fri, 05 May 2023 23:23:00 -0600</pubDate>
+      
+      <guid>https://evan.merlock.dev/projects/constructum/</guid>
+      <description>Constructum Constructum is a custom-built CI/CD pipeline for my homelab.
+It runs on top of Kubernetes, given that my homelab is based around my Kubernetes cluster.
+Features  Runs simple pipelines defined in internal Git repositories Has secret support to derive secrets from various secret stores  Upcoming Features  A user interface for easy access to logs / details A command-line tool for running pipelines locally and communicating with the API server Integration with the source-control tool I use Multiple pipelines per repository  </description>
+    </item>
+    
+    <item>
+      <title>Theta</title>
+      <link>https://evan.merlock.dev/projects/theta/</link>
+      <pubDate>Fri, 05 May 2023 23:23:00 -0600</pubDate>
+      
+      <guid>https://evan.merlock.dev/projects/theta/</guid>
+      <description>Theta Theta is my toy programming language, with roots coming from Lox of Crafting Interpreters fame, Java, and Rust. It&amp;rsquo;s designed to be a starting place for further exploration of programming language concepts I didn&amp;rsquo;t learn in college.
+This project took a back-seat due to the need for a competent CI/CD pipeline &amp;ndash; see Constructum.
+Features  Bytecode compiler and interpreter for basic expressions Support for statements Block support Static typing  Upcoming Features  Stack frames Function support Structure / Object support Interface or traits?</description>
+    </item>
+    
+  </channel>
+</rss>

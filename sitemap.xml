@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://evan.merlock.dev/projects/constructum/</loc>
+    <lastmod>2023-05-05T23:23:00-06:00</lastmod>
+  </url><url>
+    <loc>https://evan.merlock.dev/</loc>
+    <lastmod>2023-05-05T23:23:00-06:00</lastmod>
+  </url><url>
+    <loc>https://evan.merlock.dev/posts/</loc>
+    <lastmod>2023-05-05T23:23:00-06:00</lastmod>
+  </url><url>
+    <loc>https://evan.merlock.dev/projects/</loc>
+    <lastmod>2023-05-05T23:23:00-06:00</lastmod>
+  </url><url>
+    <loc>https://evan.merlock.dev/posts/init/</loc>
+    <lastmod>2023-05-05T23:23:00-06:00</lastmod>
+  </url><url>
+    <loc>https://evan.merlock.dev/projects/theta/</loc>
+    <lastmod>2023-05-05T23:23:00-06:00</lastmod>
+  </url><url>
+    <loc>https://evan.merlock.dev/categories/</loc>
+  </url><url>
+    <loc>https://evan.merlock.dev/tags/</loc>
+  </url>
+</urlset>
