@@ -5,6 +5,23 @@
     <link>https://evan.merlock.dev/tags/</link>
     <description>Recent content in Tags on Evan Merlock - Official Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://evan.merlock.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <copyright>Evan Merlock, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 05 May 2023 23:23:00 -0600</lastBuildDate>
+    <atom:link href="https://evan.merlock.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active</title>
+      <link>https://evan.merlock.dev/tags/active/</link>
+      <pubDate>Fri, 05 May 2023 23:23:00 -0600</pubDate>
+      <guid>https://evan.merlock.dev/tags/active/</guid>
+      <description>A project that I am actively working on in some capacity.&#xA;It might have months between updates, but I am thinking of it!</description>
+    </item>
+    <item>
+      <title>Sunset</title>
+      <link>https://evan.merlock.dev/tags/sunset/</link>
+      <pubDate>Fri, 05 May 2023 23:23:00 -0600</pubDate>
+      <guid>https://evan.merlock.dev/tags/sunset/</guid>
+      <description>A project that has been sunset or will no longer be worked on.&#xA;Probably because I got tired of it, but there might be other good reasons too!</description>
+    </item>
   </channel>
 </rss>

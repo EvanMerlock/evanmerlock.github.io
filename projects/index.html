@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="en-US"><head>
     
     <meta charset="utf-8">
     <meta name="language" content="en"> 
@@ -12,7 +12,7 @@
     <meta name="distribution" content="web">
     <meta name="web_author" content="Evan Merlock">
     <meta name="title" content="Evan Merlock - Projects">
-    <meta name="copyright" content="Copyright 2023">
+    <meta name="copyright" content="Copyright 2023-2024">
     <meta name="abstract" content="">
     <meta name="country" content="USA">
     <meta name="distribution" content="global">
@@ -24,9 +24,13 @@
     <meta http-equiv="Content-Script-Type" content="text/javascript">
 
     <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/syntax.css"/>
+
+    <link rel="alternate" type="application/rss+xml" href="https://evan.merlock.dev/projects/index.xml" title="Posts from "Evan Merlock - Official Website"">
     
-</head><body><header id="header-bar">
-    <a href="/">
+    
+</head><body class="lightMode"><header id="header-bar">
+    <a href="/" id="website-home-link">
       <h1>evan.merlock.dev</h1>
     </a>
     </br>
@@ -49,11 +53,12 @@
         <li>
           <a href="https://www.linkedin.com/in/evan-merlock/"><img class="navbar-svg" src="/assets/fontawesome/linkedin.svg" alt="LinkedIn"/></a>
         </li>
+        
       </ul>
     </nav>
 </header><main id="main-content">
 <article>
-    <p>Evan Merlock</p>
+    <p>The following is a list of all of my personal projects!</p>
 
 </article>
 
@@ -84,18 +89,29 @@
      » 
 </div><ul class="listContent">
     
-    <li>
-        <a href="https://evan.merlock.dev/projects/constructum/">Constructum</a>
-        <summary>Constructum Constructum is a custom-built CI/CD pipeline for my homelab.
+    <li class="listItem">
+        <div class="postBox">
+            <div class="postTitle">
+                <a href="https://evan.merlock.dev/projects/constructum/">Constructum</a>
+            </div>
+            <div class="postContent">
+                <summary>Constructum is a custom-built CI/CD pipeline for my homelab.
 It runs on top of Kubernetes, given that my homelab is based around my Kubernetes cluster.
-Features  Runs simple pipelines defined in internal Git repositories Has secret support to derive secrets from various secret stores  Upcoming Features  A user interface for easy access to logs / details A command-line tool for running pipelines locally and communicating with the API server Integration with the source-control tool I use Multiple pipelines per repository  </summary>
+Features Runs simple pipelines defined in internal Git repositories Has secret support to derive secrets from various secret stores Upcoming Features A user interface for easy access to logs / details A command-line tool for running pipelines locally and communicating with the API server Integration with the source-control tool I use Multiple pipelines per repository </summary>
+                
+
     </li>
     
-    <li>
-        <a href="https://evan.merlock.dev/projects/theta/">Theta</a>
-        <summary>Theta Theta is my toy programming language, with roots coming from Lox of Crafting Interpreters fame, Java, and Rust. It&rsquo;s designed to be a starting place for further exploration of programming language concepts I didn&rsquo;t learn in college.
-This project took a back-seat due to the need for a competent CI/CD pipeline &ndash; see Constructum.
-Features  Bytecode compiler and interpreter for basic expressions Support for statements Block support Static typing  Upcoming Features  Stack frames Function support Structure / Object support Interface or traits?</summary>
+    <li class="listItem">
+        <div class="postBox">
+            <div class="postTitle">
+                <a href="https://evan.merlock.dev/projects/theta/">Theta</a>
+            </div>
+            <div class="postContent">
+                <summary>Theta is my toy programming language, with roots coming from Lox of Crafting Interpreters fame, Java, and Rust. It&rsquo;s designed to be a starting place for further exploration of programming language concepts I didn&rsquo;t learn in college.
+Features Bytecode compiler and interpreter for basic expressions Support for statements Block support Static typing Stack frames Function support Array support Upcoming Features Structure / Object support Interface or traits? Generics Unified heap (arena support / raw pointers in Rust) Garbage collection (Z1 / Shenanoah based) A simple standard library Optimization passes SSF, etc Debug tooling JIT compilation Hot code detection </summary>
+                
+
     </li>
     
 </ul>
@@ -125,6 +141,7 @@ Features  Bytecode compiler and interpreter for basic expressions Support for st
      » 
 </div>
         </main><footer id="footer-bar">
-    © 2023 Evan Merlock
-</footer></body>
+    © 2023-2024 Evan Merlock. Rendered via /nix/store/q59vk31qdps8pmwzywxw9lq6b82hx16p-source.
+</footer>
+    </body>
 </html>

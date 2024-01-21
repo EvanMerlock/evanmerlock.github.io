@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="en-US"><head>
     
     <meta charset="utf-8">
     <meta name="language" content="en"> 
@@ -12,7 +12,7 @@
     <meta name="distribution" content="web">
     <meta name="web_author" content="Evan Merlock">
     <meta name="title" content="Theta">
-    <meta name="copyright" content="Copyright 2023">
+    <meta name="copyright" content="Copyright 2023-2024">
     <meta name="abstract" content="">
     <meta name="country" content="USA">
     <meta name="distribution" content="global">
@@ -24,9 +24,12 @@
     <meta http-equiv="Content-Script-Type" content="text/javascript">
 
     <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/syntax.css"/>
+
     
-</head><body><header id="header-bar">
-    <a href="/">
+    
+</head><body class="lightMode"><header id="header-bar">
+    <a href="/" id="website-home-link">
       <h1>evan.merlock.dev</h1>
     </a>
     </br>
@@ -49,25 +52,35 @@
         <li>
           <a href="https://www.linkedin.com/in/evan-merlock/"><img class="navbar-svg" src="/assets/fontawesome/linkedin.svg" alt="LinkedIn"/></a>
         </li>
+        
       </ul>
     </nav>
 </header><main id="main-content">
-<article>
-    <h2 id="theta">Theta</h2>
-<p>Theta is my toy programming language, with roots coming from <a href="https://craftinginterpreters.com/">Lox of Crafting Interpreters fame</a>, Java, and Rust.
+<article class="blogPost">
+    <div class="blogPostTitleBar">
+        <div class="blogPostLeftTitleBar">
+            <h1>Theta</h1>
+        </div>
+        <div class="blogPostRightTitleBar">
+            <h2>May 05 2023 11:23PM</h2>
+        </div>
+    </div>
+
+    <div class="blogPostContent">
+        <p>Theta is my toy programming language, with roots coming from <a href="https://craftinginterpreters.com/">Lox of Crafting Interpreters fame</a>, Java, and Rust.
 It&rsquo;s designed to be a starting place for further exploration of programming language concepts I didn&rsquo;t learn in college.</p>
-<p>This project took a back-seat due to the need for a competent CI/CD pipeline &ndash; see <a href="../constructum">Constructum</a>.</p>
-<h2 id="features">Features</h2>
+<h1 id="features">Features</h1>
 <ul>
 <li>Bytecode compiler and interpreter for basic expressions</li>
 <li>Support for statements</li>
 <li>Block support</li>
 <li>Static typing</li>
+<li>Stack frames</li>
+<li>Function support</li>
+<li>Array support</li>
 </ul>
 <h2 id="upcoming-features">Upcoming Features</h2>
 <ul>
-<li>Stack frames</li>
-<li>Function support</li>
 <li>Structure / Object support</li>
 <li>Interface or traits?</li>
 <li>Generics</li>
@@ -87,9 +100,12 @@ It&rsquo;s designed to be a starting place for further exploration of programmin
 </li>
 </ul>
 
+    </div>
+    
 </article>
 
         </main><footer id="footer-bar">
-    © 2023 Evan Merlock
-</footer></body>
+    © 2023-2024 Evan Merlock. Rendered via /nix/store/q59vk31qdps8pmwzywxw9lq6b82hx16p-source.
+</footer>
+    </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head>
+<html lang="en-US"><head>
     
     <meta charset="utf-8">
     <meta name="language" content="en"> 
@@ -12,7 +12,7 @@
     <meta name="distribution" content="web">
     <meta name="web_author" content="Evan Merlock">
     <meta name="title" content="My New Website">
-    <meta name="copyright" content="Copyright 2023">
+    <meta name="copyright" content="Copyright 2023-2024">
     <meta name="abstract" content="">
     <meta name="country" content="USA">
     <meta name="distribution" content="global">
@@ -24,9 +24,12 @@
     <meta http-equiv="Content-Script-Type" content="text/javascript">
 
     <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/syntax.css"/>
+
     
-</head><body><header id="header-bar">
-    <a href="/">
+    
+</head><body class="lightMode"><header id="header-bar">
+    <a href="/" id="website-home-link">
       <h1>evan.merlock.dev</h1>
     </a>
     </br>
@@ -49,16 +52,35 @@
         <li>
           <a href="https://www.linkedin.com/in/evan-merlock/"><img class="navbar-svg" src="/assets/fontawesome/linkedin.svg" alt="LinkedIn"/></a>
         </li>
+        
+        
+        <li>
+          <a href="/posts/index.xml"><img class="navbar-svg" src="/assets/fontawesome/rss-solid.svg" alt="RSS"></a>
+        </li>
+        
       </ul>
     </nav>
 </header><main id="main-content">
-<article>
-    <h2 id="welcome-to-my-new-website">Welcome to my new website!</h2>
+<article class="blogPost">
+    <div class="blogPostTitleBar">
+        <div class="blogPostLeftTitleBar">
+            <h1>My New Website</h1>
+        </div>
+        <div class="blogPostRightTitleBar">
+            <h2>May 05 2023 11:23PM</h2>
+        </div>
+    </div>
+
+    <div class="blogPostContent">
+        <h2 id="welcome-to-my-new-website">Welcome to my new website!</h2>
 <p>Will I write blog posts? Will I ever update it after this first time? We&rsquo;ll find out together&hellip;</p>
 
+    </div>
+    
 </article>
 
         </main><footer id="footer-bar">
-    © 2023 Evan Merlock
-</footer></body>
+    © 2023-2024 Evan Merlock. Rendered via /nix/store/q59vk31qdps8pmwzywxw9lq6b82hx16p-source.
+</footer>
+    </body>
 </html>

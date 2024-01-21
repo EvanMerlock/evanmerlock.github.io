@@ -1,0 +1,39 @@
+User-agent: *
+
+
+Disallow: /tags/active/
+
+
+
+Disallow: /projects/constructum/
+
+
+
+
+
+Disallow: /posts/
+
+
+
+Disallow: /projects/
+
+
+
+Disallow: /posts/init/
+
+
+
+Disallow: /tags/sunset/
+
+
+
+Disallow: /tags/
+
+
+
+Disallow: /projects/theta/
+
+
+
+Disallow: /categories/
+

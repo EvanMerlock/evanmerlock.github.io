@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sunset on Evan Merlock - Official Website</title>
+    <link>https://evan.merlock.dev/tags/sunset/</link>
+    <description>Recent content in Sunset on Evan Merlock - Official Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Evan Merlock, All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 05 May 2023 23:23:00 -0600</lastBuildDate>
+    <atom:link href="https://evan.merlock.dev/tags/sunset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Constructum</title>
+      <link>https://evan.merlock.dev/projects/constructum/</link>
+      <pubDate>Fri, 05 May 2023 23:23:00 -0600</pubDate>
+      <guid>https://evan.merlock.dev/projects/constructum/</guid>
+      <description>Constructum is a custom-built CI/CD pipeline for my homelab.&#xA;It runs on top of Kubernetes, given that my homelab is based around my Kubernetes cluster.&#xA;Features Runs simple pipelines defined in internal Git repositories Has secret support to derive secrets from various secret stores Upcoming Features A user interface for easy access to logs / details A command-line tool for running pipelines locally and communicating with the API server Integration with the source-control tool I use Multiple pipelines per repository </description>
+    </item>
+  </channel>
+</rss>
